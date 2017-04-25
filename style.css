@@ -1,3 +1,204 @@
-/***************************
-        VOTRE CSS
-****************************/
+body {
+ margin:0;
+ padding:0;
+ font-family: "HelveticaNeueLTStd";
+ }
+main {
+position: relative;
+margin:auto;
+}
+header {
+position:relative;
+height: 785px;
+width: 100%;
+background: linear-gradient(
+rgba(0, 0, 0, 0.45),
+rgba(0, 0, 0, 0.45)
+),url(/home/coda/CODA/Exo2-Css/img/image-499666622.jpg);
+background-size: 100%;
+margin:auto;
+}
+#archives {
+position: absolute;
+margin-left: 850px;
+margin-top: 60px;
+color: white;
+}
+#logo {
+position: absolute;
+margin-left: 350px;
+margin-top: 50px;
+}
+#theme {
+position: absolute;
+font-size: 50px;
+color: white;
+margin-top: 200px;
+margin-left: 350px;
+}
+#awesome {
+position: absolute;
+font-size: 25px;
+color: white;
+margin-top: 470px;
+margin-left: 350px;
+}
+#see {
+position: absolute;
+background-color: #E07338;
+text-align: center;
+color: white;
+height: 50px;
+width: 200px;
+margin-top: 620px;
+margin-left: 350px;
+}
+section{
+position: relative;
+height: 780px;
+}
+#fine {
+opacity: 0.6;
+position: absolute;
+font-size: 35px;
+margin-top: 50px;
+margin-left: 350px;
+}
+#compteur {
+position: absolute;
+margin-left: 350px;
+margin-top: 200px;
+}
+#titreC {
+opacity: 0.6;
+position: absolute;
+margin-top: 190px;
+margin-left: 550px;
+}
+#texteC {
+opacity: 0.4;
+position: absolute;
+margin-top: 250px;
+margin-left: 550px;
+}
+#portable {
+position: absolute;
+margin-top: 200px;
+margin-left: 1000px;
+}
+#titreP {
+opacity: 0.6;
+position: absolute;
+margin-top: 190px;
+margin-left: 1200px;
+}
+#texteP {
+opacity: 0.4;
+position: absolute;
+margin-top: 250px;
+margin-left: 1200px;
+}
+#tournevis {
+position: absolute;
+margin-left: 350px;
+margin-top: 400px;
+}
+#titreT {
+opacity: 0.6;
+position: absolute;
+margin-left: 550px;
+margin-top: 380px;
+}
+#texteT {
+opacity: 0.4;
+position: absolute;
+margin-left: 550px;
+margin-top: 440px;
+}
+#poubelle {
+position: absolute;
+margin-top: 400px;
+margin-left: 1000px;
+}
+#titrePou {
+opacity: 0.6;
+position: absolute;
+margin-top: 380px;
+margin-left: 1200px;
+}
+#textePou {
+opacity: 0.4;
+position: absolute;
+margin-top: 440px;
+margin-left: 1200px;
+}
+/*article1*/
+#images {
+position: relative;
+height: 1000px;
+}
+#samples {
+opacity: 0.6;
+position: absolute;
+font-size: 35px;
+margin-left: 350px;
+margin-top: -80px;
+}
+#design {
+opacity: 0.6;
+position: absolute;
+font-size: 15px;
+margin-left: 390px;
+margin-top: 50px;
+}
+#orange {
+opacity: 0.6;
+position: absolute;
+font-size: 15px;
+margin-left: 350px;
+margin-top: 50px;
+color: #E07338;
+}
+#jean {
+position: absolute;
+margin-left: 350px;
+margin-top: 135px;
+}
+#bible {
+position: absolute;
+margin-top: 135px;
+margin-left: 739px;
+}
+#jap {
+position: absolute;
+margin-top: 135px;
+margin-left: 1128px;
+}
+#cerise {
+position: absolute;
+margin-left: 350px;
+margin-top: 524px;
+}
+#bois {
+position: absolute;
+margin-top: 524px;
+margin-left: 739px;
+}
+#vanille {
+position: absolute;
+margin-top: 524px;
+margin-left: 1128px;
+}
+/*article2*/
+#citron {
+position: relative;
+height: 300px;
+background-color: #F57E3B;
+}
+#wind{
+position: absolute;
+color: white;
+font-size: 25px;
+margin-left: 350px;
+margin-top: 70px;
+}
