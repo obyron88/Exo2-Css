@@ -1,204 +1,585 @@
 body {
- margin:0;
- padding:0;
- font-family: "HelveticaNeueLTStd";
- }
+  margin:0;
+  padding:0;
+  font-family: "HelveticaNeueLTStd";
+}
 main {
-position: relative;
-margin:auto;
+  position: relative;
+  margin:auto;
 }
 header {
-position:relative;
-height: 785px;
-width: 100%;
-background: linear-gradient(
-rgba(0, 0, 0, 0.45),
-rgba(0, 0, 0, 0.45)
-),url(/home/coda/CODA/Exo2-Css/img/image-499666622.jpg);
-background-size: 100%;
-margin:auto;
+  position:relative;
+  height: 785px;
+  width: 100%;
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ),url(/home/coda/CODA/Exo2-Css/img/image-499666622.jpg);
+  background-size: 100%;
+  margin:auto;
 }
 #archives {
-position: absolute;
-margin-left: 850px;
-margin-top: 60px;
-color: white;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 60px;
+  color: white;
+}
+#flechebas{
+  position: absolute;
+  color: white;
+  transform:rotate(180deg);
+  margin-left: 1447px;
+  margin-top: 56px;
 }
 #logo {
-position: absolute;
-margin-left: 350px;
-margin-top: 50px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 50px;
 }
 #theme {
-position: absolute;
-font-size: 50px;
-color: white;
-margin-top: 200px;
-margin-left: 350px;
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  margin-top: 200px;
+  margin-left: 350px;
 }
 #awesome {
-position: absolute;
-font-size: 25px;
-color: white;
-margin-top: 470px;
-margin-left: 350px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-top: 470px;
+  margin-left: 350px;
 }
 #see {
-position: absolute;
-background-color: #E07338;
-text-align: center;
-color: white;
-height: 50px;
-width: 200px;
-margin-top: 620px;
-margin-left: 350px;
+  font-size: 20px;
+  border: none;
+  position: absolute;
+  background-color: #E07338;
+  text-align: center;
+  color: white;
+  height: 50px;
+  width: 200px;
+  margin-top: 620px;
+  margin-left: 350px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 section{
-position: relative;
-height: 780px;
+  position: relative;
+  height: 780px;
 }
 #fine {
-opacity: 0.6;
-position: absolute;
-font-size: 35px;
-margin-top: 50px;
-margin-left: 350px;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 350px;
 }
 #compteur {
-position: absolute;
-margin-left: 350px;
-margin-top: 200px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 200px;
 }
 #titreC {
-opacity: 0.6;
-position: absolute;
-margin-top: 190px;
-margin-left: 550px;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 550px;
 }
 #texteC {
-opacity: 0.4;
-position: absolute;
-margin-top: 250px;
-margin-left: 550px;
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 550px;
 }
 #portable {
-position: absolute;
-margin-top: 200px;
-margin-left: 1000px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1000px;
 }
 #titreP {
-opacity: 0.6;
-position: absolute;
-margin-top: 190px;
-margin-left: 1200px;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 1200px;
 }
 #texteP {
-opacity: 0.4;
-position: absolute;
-margin-top: 250px;
-margin-left: 1200px;
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 1200px;
 }
 #tournevis {
-position: absolute;
-margin-left: 350px;
-margin-top: 400px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 400px;
 }
 #titreT {
-opacity: 0.6;
-position: absolute;
-margin-left: 550px;
-margin-top: 380px;
+  opacity: 0.6;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 380px;
 }
 #texteT {
-opacity: 0.4;
-position: absolute;
-margin-left: 550px;
-margin-top: 440px;
+  opacity: 0.4;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 440px;
 }
 #poubelle {
-position: absolute;
-margin-top: 400px;
-margin-left: 1000px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1000px;
 }
 #titrePou {
-opacity: 0.6;
-position: absolute;
-margin-top: 380px;
-margin-left: 1200px;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 1200px;
 }
 #textePou {
-opacity: 0.4;
-position: absolute;
-margin-top: 440px;
-margin-left: 1200px;
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 1200px;
 }
 /*article1*/
 #images {
-position: relative;
-height: 1000px;
+  position: relative;
+  height: 1000px;
 }
 #samples {
-opacity: 0.6;
-position: absolute;
-font-size: 35px;
-margin-left: 350px;
-margin-top: -80px;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 35px;
+  margin-left: 350px;
+  margin-top: -80px;
 }
 #design {
-opacity: 0.6;
-position: absolute;
-font-size: 15px;
-margin-left: 390px;
-margin-top: 50px;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 15px;
+  margin-left: 390px;
+  margin-top: 50px;
 }
 #orange {
-opacity: 0.6;
-position: absolute;
-font-size: 15px;
-margin-left: 350px;
-margin-top: 50px;
-color: #E07338;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 15px;
+  margin-left: 350px;
+  margin-top: 50px;
+  color: #E07338;
 }
 #jean {
-position: absolute;
-margin-left: 350px;
-margin-top: 135px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 135px;
 }
 #bible {
-position: absolute;
-margin-top: 135px;
-margin-left: 739px;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 739px;
 }
 #jap {
-position: absolute;
-margin-top: 135px;
-margin-left: 1128px;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 1128px;
 }
 #cerise {
-position: absolute;
-margin-left: 350px;
-margin-top: 524px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 524px;
 }
 #bois {
-position: absolute;
-margin-top: 524px;
-margin-left: 739px;
+  position: absolute;
+  margin-top: 524px;
+  margin-left: 739px;
 }
 #vanille {
-position: absolute;
-margin-top: 524px;
-margin-left: 1128px;
+  position: absolute;
+  margin-top: 524px;
+  margin-left: 1128px;
 }
 /*article2*/
 #citron {
-position: relative;
-height: 300px;
-background-color: #F57E3B;
+  position: relative;
+  height: 300px;
+  background-color: #F57E3B;
 }
 #wind{
-position: absolute;
-color: white;
-font-size: 25px;
-margin-left: 350px;
-margin-top: 70px;
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-left: 350px;
+  margin-top: 70px;
+}
+#steph{
+  position: absolute;
+  color: white;
+  margin-left: 350px;
+  margin-top: 170px;
+}
+#fleches {
+  border: none;
+  position: absolute;
+  color: white;
+  background-color: #DD7136;
+  margin-left: 350px;
+  margin-top: 220px;
+  cursor: pointer;
+}
+/*article3*/
+#face{
+  position:relative;
+  height: 1000px;
+}
+#ourteam {
+  opacity: 0.6;
+  position: absolute;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+#blond {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 200px;
+  width: 370px;
+}
+#brune{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 720px;
+  width: 370px;
+}
+#brun{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1080px;
+  width: 370px;
+}
+#rrt {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 590px;
+  opacity: 0.6;
+}
+#alt {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 590px;
+  opacity: 0.6;
+}
+#jpt {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 590px;
+  opacity: 0.6;
+}
+#rrst{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 640px;
+  opacity: 0.6;
+}
+#alst{
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 640px;
+  opacity: 0.6;
+}
+#jpst {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 640px;
+  opacity: 0.6;
+}
+#rrtexte {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 740px;
+  opacity: 0.6;
+}
+#altexte {
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 740px;
+  opacity: 0.6;
+}
+#jptexte {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 740px;
+  opacity: 0.6;
+}
+/*article4*/
+#sono {
+  position: relative;
+  height: 785px;
+  width: 100%;
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ),url(/home/coda/CODA/Exo2-Css/img/image-195625538.jpg);
+  background-size: 100%;
+  margin:auto;
+}
+#static {
+  position: absolute;
+  font-size: 35px;
+  margin-top: 70px;
+  margin-left: 350px;
+  color: white;
+}
+#handy {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: 200px;
+}
+#H{
+  width: 1000px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 260px;
+}
+#grostexte {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 350px;
+  color: white;
+}
+#inputsend1{
+  background-color: #F57E3B;
+  color: white;
+  width: 200px;
+  height: 65px;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 350px;
+  margin-top: 550px;
+}
+/*form*/
+#formulaire{
+  position: relative;
+  height: 800px;
+}
+#getintouch {
+  opacity: 0.6;
+  position: absolute;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+#methdesign {
+  font-size: 25px;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+#alwayslook {
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 350px;
+}
+#contactdetails{
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 350px;
+  font-size: 25px;
+}
+#twenty {
+  opacity: 0.4;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 350px;
+}
+#hello {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 650px;
+  color: #F57E3B;
+}
+#TF {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 650px;
+  opacity: 0.4;
+}
+#twitter {
+  font-size: 35px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 350px;
+  opacity: 0.2;
+}
+#ballon {
+  font-size: 35px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 390px;
+  opacity: 0.2;
+}
+#photo {
+  font-size: 35px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 430px;
+  opacity: 0.2;
+}
+#formu {
+  position: absolute;
+margin-left: 950px;
+margin-top: 125px;
+}
+.formname {
+  opacity: 0.4;
+}
+#sendus {
+  font-size: 25px;
+  opacity: 0.6;
+}
+#inputname{
+  width: 400px;
+  height: 60px;
+  background-color: #E5E5D1;
+  border: none;
+  border-radius: 3px;
+}
+#inputmail {
+  width: 400px;
+  height: 60px;
+  background-color: #E5E5D1;
+  border: none;
+  border-radius: 3px;
+}
+#inputmess {
+  width: 400px;
+  background-color: #E5E5D1;
+  border: none;
+  border-radius: 3px;
+  height: 150px;
+}
+#inputsend2{
+  background-color: #F57E3B;
+  color: white;
+  width: 200px;
+  height: 65px;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+footer {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ),url(/home/coda/CODA/Exo2-Css/img/image-876206940.jpg);
+  background-size: 100%;
+  margin:auto;
+}
+#blog {
+  position: absolute;
+  font-size: 35px;
+  margin-top: 70px;
+  margin-left: 350px;
+  color: white;
+}
+#markup {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 350px;
+  color: white;
+}
+#award {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 700px;
+  color: white;
+}
+#canbebad {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1050px;
+  color: white;
+}
+#feb {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 350px;
+  color: white;
+}
+#jan {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 700px;
+  color: white;
+}
+#jan2 {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 1050px;
+  color: white;
+}
+#leftb {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 350px;
+  color: white;
+  background-color: #544B43;
+  border: none;
+}
+#rightb {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 375px;
+  color: white;
+  background-color: #544B43;
+  border: none;
+}
+#banderolle {
+  position: absolute;
+  margin-top: 650px;
+  width: 100%;
+  height: 50px;
+  background-color: #242424;
+}
+#C {
+  position: absolute;
+  color: #424240;
+  margin-left: 350px;
+}
+#methc {
+  position: absolute;
+  margin-left: 420px;
+  color: white;
+}
+#wordpress {
+  position: absolute;
+  color: #424240;
+  margin-left: 470px;
+  margin-top: 0px;
+}
+#mcode {
+  position: absolute;
+  margin-left: 830px;
+  color: white;
+  margin-top: 0px;
 }
