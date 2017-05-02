@@ -1,0 +1,11 @@
+body {
+  background-image: url(http://www.tissus-chamaye.com/wp-content/uploads/2014/08/Cercles-Papier-peint-Lignes-Orange-Couleur-D%C3%A9grad%C3%A9-Abstraction.jpg);
+  background-size: 100%;
+}
+p {
+  opacity: 0.5;
+  padding-top: 100px;
+  font-weight: bold;
+  color: ##CFCFCF;
+  font-size: 25px;
+}

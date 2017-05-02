@@ -14,7 +14,7 @@ header {
   background: linear-gradient(
   rgba(0, 0, 0, 0.45),
   rgba(0, 0, 0, 0.45)
-  ),url(/home/coda/CODA/Exo2-Css/img/image-499666622.jpg);
+  ),url(img/image-499666622.jpg);
   background-size: 100%;
   margin:auto;
 }
@@ -323,7 +323,7 @@ section{
   background: linear-gradient(
   rgba(0, 0, 0, 0.45),
   rgba(0, 0, 0, 0.45)
-  ),url(/home/coda/CODA/Exo2-Css/img/image-195625538.jpg);
+  ),url(img/image-195625538.jpg);
   background-size: 100%;
   margin:auto;
 }
@@ -486,7 +486,7 @@ footer {
   background: linear-gradient(
   rgba(0, 0, 0, 0.45),
   rgba(0, 0, 0, 0.45)
-  ),url(/home/coda/CODA/Exo2-Css/img/image-876206940.jpg);
+  ),url(img/image-876206940.jpg);
   background-size: 100%;
   margin:auto;
 }
